@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    background: rgb(179, 179, 179);
+    width: 100%;
+    padding: 0 0 5vh 0;
+}
+#logo-links-container{
+    display:flex;
+    justify-content: space-evenly;
+    height:15vh;
+    align-content: center;
+    align-items: center;
+}
+
+#logo-container{
+    flex:5;
+    display:flex;
+    
+}
+#logo-container p{
+    font-size:3em;
+    margin: 0 0 0 3em;
+}
+#links-container{
+    flex:6;
+    
+}
+
+#links{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1em;
+    justify-content: flex-end;
+    margin: 0 15em 0 0;
+}
+
+#links li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size:20px;
+}
+
+#intro-slider-container{
+    display:flex;
+    margin: 0 0 0 9em;
+}
+
+#intro-container{
+    flex:3;
+    position: relative;
+}
+#intro-container p{
+    position: absolute;
+    font-size:1.2em;
+}
+
+#intro-container h1{
+    font-size: 4em;
+}
+
+#slider-container{
+    flex:4;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+#slider{
+    font-size:1.2em;
+    padding:6em 12.5em 6em 7em;
+    background: rgb(158, 158, 158);
+}
+
+#slider-selector-container{
+    display:flex;
+    gap:1rem;
+    padding:2em;
+    justify-content: flex-end;
+    margin: 0 18% 0 0;
+}
+.selection{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background: rgb(158, 158, 158);
+}
+
+#content-slider-selector-container{
+    justify-content: center;
+    width:70%;
+    margin: 0 0 5% 15%;
+}
+
+#content{
+    display:flex;
+    gap:2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+#content-container li{
+    font-size:1.2em;
+    width:13em;
+    height:13em;
+    background: rgb(158, 158, 158);
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#content-container li:nth-last-child(1){
+    width:77%;
+    height:10vh;
+}
+#content-container p{
+    margin: auto;
+}
+
+
+#footer-container{
+    display:flex;
+    align-items: center;
+    height:10vh;
+    background: rgb(179, 179, 179);
+    justify-content: space-between;
+    font-size:20px;
+}
+#footer-link-container{
+    display:flex;
+    list-style-type: none;
+    gap:1rem;
+    margin: 0 0 0 7em;
+}
+
+#copyright-container{
+    margin: 0 12em 0 0;
+}
+
