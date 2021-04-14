@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+a{
+    text-decoration: none;
 }
 #header{
     background: rgb(179, 179, 179);
