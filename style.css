@@ -95,6 +95,20 @@ a{
     width:15px;
     border-radius: 50%;
     background: rgb(158, 158, 158);
+    
+}
+
+.selection:hover{
+    animation: hover 1s forwards;
+}
+@keyframes hover{
+    0%{
+        background: rgb(158, 158, 158); 
+    }
+    100%{
+        background:white;
+        border:1px solid black;
+    }
 }
 
 #content-slider-selector-container{
